@@ -1,13 +1,13 @@
-# 🗓️ 프로젝트 기간
+# 📆 프로젝트 기간
 
 2023.12.11 ~ 2023.12.21(총 9일)
 
-# 📄 프로젝트 소개
+# 📋 프로젝트 소개
 
 - STS(Semantic Text Similarity)란 두 텍스트가 얼마나 유사한지 판단하는 NLP Task로, 일반적으로 두 개의 문장을 입력하고 이러한 문장 쌍이 얼마나 의미적으로 서로 얼마나 유사한지를 판단하는 과제이다.
 - 본 프로젝트는 주어진 데이터셋을 바탕으로 0과 5사이의 유사도 점수를 예측하는 모델을 만드는 것에 목적을 둔다.
 
-# 💽 프로젝트 구조
+# 🏝 프로젝트 구조
 
 - Train Data : 9,324개
 - Test Data : 1,100개
@@ -35,16 +35,15 @@
 | 1 | 두 문장의 핵심 내용은 동등하지 않지만, 비슷한 주제를 다루고 있음 |
 | 0 | 두 문장의 핵심 내용이 동등하지 않고, 부가적인 내용에서도 공통점이 없음 |
 
-# 📋 평가 지표
-
+## 평가 지표
 - **피어슨 상관 계수 PCC(Pearson Correlation Coefficient)** : 두 변수 X와 Y간의 선형 상관 관계를 계량화한 수치
 - 정답을 정확하게 예측하는 것보다, 높은 값은 확실히 높게, 낮은 값은 확실히 낮게 전체적인 경향을 잘 예측하는 것이 중요하게 작용
 
-# 👨‍👨‍👧‍👧 멤버 구성 및 역할
+# 🐣 멤버 구성 및 역할
 
-| [전현욱](https://github.com/kms7530) | [곽수연](https://github.com/lig96) | [김가영](https://github.com/halimx2) | [김신우](https://github.com/ChoiHwimin) | [안윤주](https://github.com/dbsrlskfdk) |
+| [전현욱](https://github.com/gusdnr122997) | [곽수연](https://github.com/lig96) | [김가영](https://github.com/halimx2) | [김신우](https://github.com/ChoiHwimin) | [안윤주](https://github.com/dbsrlskfdk) |
 | --- | --- | --- | --- | --- |
-| <img src="https://avatars.githubusercontent.com/u/6489395" width="140px" height="140px" title="Minseok Kwak" /> | <img src="https://avatars.githubusercontent.com/u/126560547" width="140px" height="140px" title="Ingyun Lee" /> | <img src="https://ca.slack-edge.com/T03KVA8PQDC-U04RK3E8L3D-ebbce77c3928-512" width="140px" height="140px" title="Halim Lim" /> | <img src="https://avatars.githubusercontent.com/u/102031218?v=4" width="140px" height="140px" title="ChoiHwimin" /> | <img src="https://avatars.githubusercontent.com/u/4418651?v=4" width="140px" height="140px" title="yungi" /> |
+| <img src="https://avatars.githubusercontent.com/u/6489395" width="140px" height="140px" title="eee" /> | <img src="https://avatars.githubusercontent.com/u/126560547" width="140px" height="140px" title="Ingyun Lee" /> | <img src="https://ca.slack-edge.com/T03KVA8PQDC-U04RK3E8L3D-ebbce77c3928-512" width="140px" height="140px" title="Halim Lim" /> | <img src="https://avatars.githubusercontent.com/u/102031218?v=4" width="140px" height="140px" title="ChoiHwimin" /> | <img src="https://avatars.githubusercontent.com/u/4418651?v=4" width="140px" height="140px" title="yungi" /> |
 - **곽민석**
     - 모델 리서치, 프로젝트 구조 세분화, 파라미터 튜닝 및 구조 개선
 - **이인균**
@@ -61,7 +60,7 @@
 - `klue/roberta-large`
 - `beomi/KcELECTRA`
 
-# 🏗️ 프로젝트 구조
+# 🏗️ 폴더 구조
 
 ```bash
 .
