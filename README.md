@@ -69,30 +69,45 @@
 ```bash
 .
 ├── Readme.md
+├── wrapup-report.pdf
 ├── code
-│   ├── Halim
-│   │   └── train_kfold.ipynb
-│   ├── Ingyun_0424
-│   │   └── kcelectra_linearscheduler_totalversion_IfNotTotalTestpEqualZeroDot93.py
-│   ├── Minseok
-│   │   ├── base_2.py
-│   │   ├── dataset.ipynb
-│   │   ├── main.py
-│   │   └── run.ipynb
-│   ├── base_model
-│   │   ├── base_2-kobert.py
-│   │   ├── base_2.py
-│   │   ├── base_2_no_sweep.py
-│   │   ├── main.py
-│   │   ├── run-kobert.ipynb
-│   │   └── run.ipynb
-│   ├── inference.py
-│   └── train.py
-└── data
-    ├── dev.csv
-    ├── sample_submission.csv
-    ├── test.csv
-    └── train.csv
+    ├── KSW
+    │   └── train_kfold.py
+    ├── KSY
+    │   ├── train
+    │   │   ├── train_kfold_WRS.py
+    │   │   ├── train_koelectra.py
+    │   │   ├── train_test_aug.py
+    │   │   ├── train_test_label.py
+    │   │   ├── train_test_WeightedMSE.py
+    │   │   └── train_test_WRS.py
+    │   └── utils
+    │       ├── data_augmentation.py
+    │       ├── ensemble.py
+    │       └── inference_koelectra.py
+    ├── KGY
+    │   ├── loss_functions.py
+    │   ├── source_tagging.py
+    │   └── trainMSE.py
+    ├── AYJ
+    │   ├── model_test_fin.py
+    │   ├── model_test_fin2.py
+    │   ├── inference.py
+    │   ├── <soon update>
+    │   └── <soon update>
+    ├── JHW
+    │   ├── back_translate.py
+    │   ├── ensemble.py
+    │   └── make_train_uniform.py
+    └── final
+        ├── data
+        ├── fine-tuned
+        ├── output
+        ├── back_translate.py
+        ├── ensemble.py
+        ├── make_train_uniform.py
+        ├── inference.py
+        └── train.py
 ```
 
 # 🍸 Leaderboard
